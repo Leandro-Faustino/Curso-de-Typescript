@@ -1,4 +1,4 @@
- namespace geometria{ //namespace alinhado
+ /*namespace geometria{ //namespace alinhado
  
   export namespace Area{
 const Pi = 3.14
@@ -11,6 +11,6 @@ return Pi * Math.pow(raio,2)
 export function Retangulo(base:number,altura:number):number{
 return base * altura
 
-}}}
+}}}*/
 console.log(geometria.Area.Circunferencia(10))
 console.log(geometria.Area.Retangulo(10,20))

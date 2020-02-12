@@ -1,19 +1,18 @@
 "use strict";
-var geometria;
-(function (geometria) {
-    let Area;
-    (function (Area) {
-        const Pi = 3.14;
-        function Circunferencia(raio) {
-            return Pi * Math.pow(raio, 2);
-        }
-        Area.Circunferencia = Circunferencia;
-        function Retangulo(base, altura) {
-            return base * altura;
-        }
-        Area.Retangulo = Retangulo;
-    })(Area = geometria.Area || (geometria.Area = {}));
-})(geometria || (geometria = {}));
+/*namespace geometria{ //namespace alinhado
+
+ export namespace Area{
+const Pi = 3.14
+
+export function Circunferencia(raio:number):number{
+return Pi * Math.pow(raio,2)
+
+}
+
+export function Retangulo(base:number,altura:number):number{
+return base * altura
+
+}}}*/
 console.log(geometria.Area.Circunferencia(10));
 console.log(geometria.Area.Retangulo(10, 20));
 //# sourceMappingURL=namespace.js.map
